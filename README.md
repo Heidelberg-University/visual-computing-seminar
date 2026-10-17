@@ -1,35 +1,31 @@
-# Interactive Visualization and Validation Techniques for Algorithmic Decision Making
-> Outcome-Explorer and SliceTeller Approaches
+# Visual Computing Seminar
+
+Seminar report and talk on interactive visualization for understanding and validating algorithmic decision-making systems, focused on the Outcome-Explorer and SliceTeller approaches.
+
+| | |
+|---|---|
+| Course | Visual Computing Seminar |
+| University | Heidelberg University, M.Sc. Data and Computer Science |
+| Semester | Winter 2022/23 |
+| Type | Individual seminar |
 
 ## Overview
-This repository contains the resources and findings of a seminar conducted on Visual Computing, focusing on the development of the Outcome-Explorer and SliceTeller tools. These tools are designed to facilitate the understanding and evaluation of algorithmic decision-making systems through interactive and visual means, catering to both expert and non-expert users.
 
-## Outcome-Explorer
-Outcome-Explorer is a causality-guided interactive interface that utilizes Pearl's Structural Causal Model (SCM) to define causal relationships in a model, making it intrinsically interpretable.
+The seminar reviewed two research tools that help people inspect and improve machine learning models through interactive visualization:
 
-## SliceTeller
-SliceTeller is a tool for debugging, comparing, and improving machine learning models using critical data slices. It includes features like automatic identification of problematic slices, and a novel algorithm, SliceBoosting, for optimizing performance on these slices.
+- **Outcome-Explorer** is a causality-guided interface built on Pearl's Structural Causal Model. Users can define causal relationships and see how changing inputs affects a model's outcome, which makes the model interpretable for expert and non-expert users.
+- **SliceTeller** is a tool for debugging, comparing and improving models using critical data slices. It finds slices where a model performs poorly and includes SliceBoosting, an algorithm that targets performance on those slices.
 
-## Contents
-- Final Report: Seminar_Report.pdf
-- Presentation Slides: Fast_Forward_Slides.pdf, Final_PPT_1.pdf
-- Research Papers: Paper_1.pdf, Paper_2.pdf
-- Additional Documentation: README.md
+The report covers the formative studies behind both tools, their system workflows and module designs, and how they support transparent, efficient decision making.
 
-## Formative Studies
-Included are the details of formative studies conducted with non-expert users to gauge their expectations from decision-making interfaces, focusing on the need for transparency and efficiency.
+## Repository structure
 
-## System Workflow and Module Design
-The repository elaborates on the system workflow of both tools and their module designs, aiming to support users in creating, interpreting, and improving predictive causal models.
+| Path | Contents |
+|---|---|
+| `Final Report/` | Seminar report (PDF) |
+| `Presentation/` | Fast-forward slides and final presentation (PDF) |
+| `Research Papers/` | The two papers discussed in the seminar (PDF) |
 
-## Usage
-Please refer to individual directories for detailed instructions on using the Outcome-Explorer and SliceTeller tools.
+## Author
 
-## Collaborations and Acknowledgements
-The seminar and the subsequent development of these tools were carried out in collaboration with MLOps engineers and various experts in the field of Visual Computing.
-
-## Contact
-- **Name**: Rishabh Tiwari
-- **Subject**: Visual Computing
-- **Semester**: Winter Semester 2022-2023
-- **Email**: rishtiwari98@gmail.com
+Rishabh Tiwari
