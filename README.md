@@ -22,9 +22,9 @@ The report covers the formative studies behind both tools, their system workflow
 
 | Path | Contents |
 |---|---|
-| `Final Report/` | Seminar report (PDF) |
-| `Presentation/` | Fast-forward slides and final presentation (PDF) |
-| `Research Papers/` | The two papers discussed in the seminar (PDF) |
+| [`Final Report/`](Final%20Report/) | Seminar report (PDF) |
+| [`Presentation/`](Presentation/) | Fast-forward slides and final presentation (PDF) |
+| [`Research Papers/`](Research%20Papers/) | The two papers discussed in the seminar (PDF) |
 
 ## Author
 
